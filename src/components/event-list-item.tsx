@@ -20,7 +20,7 @@ export function EventItemList({
           <p className="hidden md:blocktext-sm text-gray-600">{`${formatDate(event.start)} ~ ${formatDate(event.end)}`}</p>
         </div>
         <button
-          className="bg-red-500 hover:bg-red-600 text-xs md:text-sm text-white font-medium py-2 px-4 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-red-400"
+          className="bg-red-500 hover:bg-red-600 text-xs md:text-sm text-white font-medium py-2 px-4 rounded-lg transition-colors focus:outline-hidden focus:ring-2 focus:ring-red-400"
           onClick={onDelete}
         >
           삭제

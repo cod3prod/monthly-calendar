@@ -44,7 +44,7 @@ export default function InputContainer({
   };
 
   return (
-    <div className="mb-4 p-4 bg-white rounded-lg shadow">
+    <div className="mb-4 p-4 bg-white rounded-lg shadow-sm">
       <h2 className="text-lg font-semibold mb-2">일정 추가</h2>
 
       <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-2">
@@ -74,7 +74,7 @@ export default function InputContainer({
       </div>
       <button
         onClick={handleAddEvent}
-        className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-500/80"
+        className="bg-blue-500 text-white px-4 py-2 rounded-sm hover:bg-blue-500/80"
       >
         추가
       </button>
